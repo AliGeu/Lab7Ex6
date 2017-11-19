@@ -15,17 +15,15 @@ public class HomeController extends Controller {
      * this method will be called when the application receives a
      * <code>GET</code> request with a path of <code>/</code>.
      */
-    public Result index() {
-        return ok(index.render());
+    public Result index(String name) {
+        return ok(index.render("Welcome to the Home Page", name));
     }
 
     public Result about() {
         return ok(about.render());
     }
 
-    public Result products() {
-        return ok(products.render());
-    }
+   
 }
 
 
