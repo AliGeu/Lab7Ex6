@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/home/wdd/webapps/play/play-java-seed/conf/routes
-// @DATE:Sun Nov 19 10:18:59 GMT 2017
+// @SOURCE:/home/wdd/webapps/play/lab3.1.6/conf/routes
+// @DATE:Mon Nov 20 21:46:31 GMT 2017
 
 
 package router {
